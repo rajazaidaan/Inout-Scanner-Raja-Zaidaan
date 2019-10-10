@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author MSI-GF63
+ */
+public class Latihan02 {
+    
+    public static void main(String[] args) {
+        System.out.println("Tinggi badan mu =");
+        
+        Scanner sc = new Scanner (System.in);
+        int tinggi = sc.nextInt();
+        System.out.println("Berat badan mu=");
+        int berat = sc.nextInt();
+        
+        System.out.println("tinggi badan = " + tinggi + " Cm");
+        System.out.println("berat badan = " + berat + " Kg");
+        
+        
+    }
+    
+}
